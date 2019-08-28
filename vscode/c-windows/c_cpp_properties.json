@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "E:/program/C-MinGW/include/**",
+                "E:/program/C-MinGW/lib/gcc/mingw32/**",
+                "E:/program/C-MinGW/lib/gcc/mingw32/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "msvc-x64",
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}

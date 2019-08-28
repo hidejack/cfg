@@ -1,0 +1,76 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "帐号服务器",
+            "program": "${workspaceFolder}\\build\\accountServer\\account.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "大厅服务器",
+            "program": "${workspaceFolder}\\build\\hallServer\\hall.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SSS服务器",
+            "program": "${workspaceFolder}\\build\\gameSSSServer\\sss_game.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "mj服务器",
+            "program": "${workspaceFolder}\\build\\gameMJServer\\game_mj.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "nn服务器",
+            "program": "${workspaceFolder}\\build\\gameNNServer\\app4.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "SH服务器",
+            "program": "${workspaceFolder}\\build\\gameSHServer\\game_sh.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testSendCard",
+            "program": "${workspaceFolder}\\build\\test\\testSendCard.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testCmp",
+            "program": "${workspaceFolder}\\build\\test\\testCmp.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testde",
+            "program": "${workspaceFolder}\\build\\test\\testde.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testMJ",
+            "program": "${workspaceFolder}\\build\\test\\testMJCards.js"
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "testLB",
+            "program": "${workspaceFolder}\\build\\test\\testLB.js"
+        },
+    ]
+}
